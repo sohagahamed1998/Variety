@@ -1,0 +1,165 @@
+/*
+@media all and (max-width: 1200px){
+	.header-content h1{
+		max-width: 47%;
+
+	}
+	.header-content h3 {
+		margin: 1rem auto;
+		font-size: 2rem;
+	}
+}
+
+@media all and (max-width: 992px){
+	.header-content h1 {
+		max-width: 60%;
+	}
+	.header-content h3 {
+		margin: 1rem auto;
+		font-size: 1.5rem;
+ 	}
+}
+*/
+@media all and (min-width: 767px){
+	.header-menu ul{
+		display: -webkit-box !important;
+		display: -ms-flexbox !important;
+		display: flex !important;
+	}
+}
+
+
+@media all and (max-width: 767px){
+	.header-menu ul{
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		margin-top: 1rem;
+		display: none;
+	}
+	.header-logo{
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+	}
+	.nav-icon{
+		display: block;
+	}
+
+	
+}
+/*
+@media all and (min-width: 492px){
+	.header-content h1 {
+		max-width: 75%;
+		font-size: 3rem;
+	}
+	.header-content h1 {
+
+		font-size: 3rem;
+	}
+	
+}
+*/
+
+/*// Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) { 
+	.header-content hr {
+	width: 100%;
+ }
+}
+/*// Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) { 
+	.header-content h1 {
+	font-size: 5rem;
+	}
+	
+	.testimonial-area .col-md-4 {
+		-webkit-box-flex: 0;
+		    -ms-flex: 0 0 auto;
+		        flex: 0 0 auto;
+		width: 100%;
+		margin-top: 3rem;
+	}
+	.post-area .col-md-6 {
+		-webkit-box-flex: 0;
+		    -ms-flex: 0 0 auto;
+		        flex: 0 0 auto;
+		width: 100% !important;
+	}
+	.header-content {
+		padding: 5rem 0 0 0;
+	}
+		hr {
+		margin: 3rem auto;
+	}
+	.post-item {
+		margin-top: 2rem;
+	}
+}
+ 
+
+
+/*// X-Small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	.header-content h1 {
+		font-size: 2.5rem;
+}
+	.header-content hr {
+		 width: 90%; 
+		}
+	.header-content h3 {
+		margin-top: 1rem;
+		font-size: 1.6rem;
+	}
+	.testimonial-title {
+		max-width: 90rem;
+		padding-bottom: 1rem;
+	}
+	.testimonial-title h2 {
+		margin-bottom: 1rem;
+		font-size: 3rem;
+	}
+	.contack-title h1 {
+		margin-bottom: 2rem;
+		font-size: 3rem;
+	}
+	.contack-title h1 {
+		font-size: 3rem;
+	}
+	.contack-details {
+		padding-bottom: 7rem;
+	}
+	.footer-bottom {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		            -ms-grid-row-align: center;
+		        align-items: center;
+	}
+	.footer-icon {
+		width: 90%;
+	}
+	.contack-details {
+		max-width: 95%;
+	}
+	.contack-details textarea {
+		height: 10rem;
+
+	}
+}
+
+
+
+
+
